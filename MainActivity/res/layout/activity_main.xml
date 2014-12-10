@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="@string/titulo"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:context=".MainActivity" />
+
+    <SeekBar
+        android:id="@+id/potenciometro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvTitulo"
+        android:thumb="@drawable/thumb_seekbar"
+        android:progressDrawable="@drawable/progress_seekbar"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/ajuste"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/potencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/potenciometro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/pot"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        tools:context=".MainActivity" />
+
+    <ToggleButton
+        android:id="@+id/Led1"
+        android:layout_width="100dp"
+        android:layout_height="128dp"
+        android:layout_below="@+id/potencia"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bulboff"
+        android:text="@string/vacio"
+        android:textOff="@string/off"
+        android:textOn="@string/on" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/Led1"
+        android:layout_marginTop="15dp"
+        android:text="@string/info"
+        android:textSize="12sp" />
+
+</RelativeLayout>

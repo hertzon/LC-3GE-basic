@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">CONTROL DE BRILLO DE BOMBILLO LIGTH CONTROL BASIC</string>
+    <string name="hello_world">Encendiendo un led</string>
+    <string name="menu_settings">Opciones</string>
+    <string name="title_activity_main">Control de brillo de Bombillo 3GE LIGHT CONTROL BASIC</string>
+    <string name="bluetooth">Conectarse con el bombillo</string>
+    <string name="On">Apagar</string>
+    <string name="Off">Encender</string>
+    <string name="vacio">
+ </string>
+    <string name="Desconexion">Desconectar</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="pot">Potencia:</string>
+    <string name="titulo">"CONTROL DE BRILLO DE BOMBILLO "</string>
+    <string name="ajuste">Ajuste de Brillo</string>
+    <string name="onoff">Control de encendido</string>
+    <string name="presonoff">Presione la imagen para prender o apagar</string>
+    <string name="deslonoff">Deslice el control para ajustar el brillo</string>
+    <string name="info">Nota: La opcion de ajuste de brillo solo opera para bombillos incandecentes normales, no para ahorradores !!</string>
+</resources>
